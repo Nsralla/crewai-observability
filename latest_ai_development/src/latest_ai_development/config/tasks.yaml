@@ -1,0 +1,39 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about {topic}
+  agent: researcher
+
+military_analysis_task:
+  description: >
+    Analyze the research findings on World War 1 from a military strategy and tactics perspective.
+    Focus on:
+    - Military strategies and their effectiveness (Schlieffen Plan, attrition warfare, etc.)
+    - Battle tactics and their evolution throughout the war
+    - Key battles and their strategic significance (Verdun, Somme, Gallipoli, etc.)
+    - Technological innovations and their impact on warfare (tanks, machine guns, aircraft, chemical weapons)
+    - Naval warfare strategies and major naval engagements
+    - Leadership decisions and their consequences
+    - How geography and terrain influenced military operations
+    Provide deep analytical insights connecting military operations to broader war outcomes.
+  expected_output: >
+    A comprehensive military analysis document with detailed insights on strategies, tactics,
+    battles, and technological innovations. Include analysis of why certain approaches worked
+    or failed, and how military developments shaped the course of World War 1.
+    Format as structured analysis with clear sections and strategic insights.
+  agent: military_strategy_analyst
+
+reporting_task:
+  description: >
+    Review both the research findings and military analysis to create a comprehensive report
+    on World War 1. Synthesize the factual research with the strategic military insights,
+    expanding each topic into full sections. Ensure the report covers both general historical
+    facts and deep military analysis, creating a well-rounded understanding of the war.
+    Make sure the report is detailed and contains any and all relevant information.
+  expected_output: >
+    A fully fledged report with the main topics, each with a full section of information.
+    The report should integrate historical facts with military strategic analysis.
+    Formatted as markdown without '```'
+  agent: reporting_analyst
