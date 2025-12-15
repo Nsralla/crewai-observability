@@ -6,7 +6,6 @@
 * Assignment Title: Crewai
 * Submission Date: 15 Dec
 * GitHub Repository Link:
-* Video Link:
 
 ---
 
